@@ -16,7 +16,7 @@ html:
 
 # Clone all azure devops repos into reference directory.
 repos:
-	sh make/clone-repos.sh "$(SOURCEDIR)" "$(REPOSDIR)"
+	sh make/clone-pub-repos.sh "$(SOURCEDIR)" "$(REPOSDIR)"
 
 # Build documentation and push to confluence (see conf.py for configuration details).
 conf:
