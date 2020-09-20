@@ -1,4 +1,4 @@
 Kubernetes
 ========================
 
-Is a great tool....
+Is a great for container orchestration
