@@ -1,0 +1,8 @@
+source/_repos
+_build
+build/*
+.vscode
+.DS_Store
+node_modules
+*.key
+*.crt
