@@ -15,7 +15,8 @@ Example content i have used:
 TODO
 
 ## Web application
-Using python sphix
+Using python sphix, simple node js server application.
 
-## Hosted the documentation
-Can be hosted from Kubernetes or docker image locally
+## Hosting the documentation web application
+- On local machine using Dockerfile local container. 
+- on Kubernetes cluster public/internal.
