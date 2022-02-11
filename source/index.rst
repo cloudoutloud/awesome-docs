@@ -13,6 +13,6 @@ awesome-docs
 
 .. toctree::
    :maxdepth: 4
-   :caption: Certs 
+   :caption: Certs
 
    cka <certs/cka/index.rst>

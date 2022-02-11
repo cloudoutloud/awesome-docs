@@ -7,16 +7,11 @@ SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
-REPOSDIR 	  = _repos
 
 # Put it first so that "make" without argument is like "make html".
 html:
 	rm -fr "$(BUILDDIR)/html"
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) -w "$(BUILDDIR)/html.log"
-
-# Clone all azure devops repos into reference directory.
-repos:
-	sh make/clone-pub-repos.sh "$(SOURCEDIR)" "$(REPOSDIR)"
 
 # Build documentation and push to confluence (see conf.py for configuration details).
 conf:

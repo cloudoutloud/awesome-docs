@@ -15,11 +15,10 @@ import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'awesome-docs'
-copyright = '2020, cloudoutloud'
+copyright = '2022, cloudoutloud'
 author = 'Sean Rigby'
 
 # The full version, including alpha/beta/rc tags
@@ -85,18 +84,18 @@ todo_include_todos = True
 autosectionlabel_prefix_document = True
 
 # Confluence extension
-confluence_publish = True
-confluence_master_homepage = False
-confluence_purge = False
-confluence_max_doc_depth = 5
-confluence_page_hierarchy = True
-confluence_space_name = 'CNE'
-confluence_parent_page = 'SRE'
-confluence_publish_postfix = ' [azdo]'
+# confluence_publish = True
+# confluence_master_homepage = False
+# confluence_purge = False
+# confluence_max_doc_depth = 5
+# confluence_page_hierarchy = True
+# confluence_space_name = 'CNE'
+# confluence_parent_page = 'SRE'
+# confluence_publish_postfix = ' [azdo]'
 
-confluence_server_url =  os.environ.get('CONFLUENCE_SERVER_URL')
-confluence_server_user = os.environ.get('CONFLUENCE_SERVER_USER')
-confluence_server_pass = os.environ.get('CONFLUENCE_SERVER_PASS')
+# confluence_server_url =  os.environ.get('CONFLUENCE_SERVER_URL')
+# confluence_server_user = os.environ.get('CONFLUENCE_SERVER_USER')
+# confluence_server_pass = os.environ.get('CONFLUENCE_SERVER_PASS')
 
 # # https://sphinxcontrib-confluencebuilder.readthedocs.io/en/stable/configuration.html#confluence-server-auth
 # from requests_oauthlib import OAuth1

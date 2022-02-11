@@ -2,7 +2,7 @@
 .wy-nav-content {
     max-width: none;
   }
-  
+
   .wy-side-nav-search {
       display: block;
       width: 300px;
@@ -16,7 +16,7 @@
       color: #fcfcfc;
       margin-bottom: .809em;
   }
-  
+
   /* menu h1 header (update colour) */
   .wy-menu-vertical header, .wy-menu-vertical p.caption {
       color: #FFFFFF;
@@ -26,7 +26,7 @@
       font-size: 85%;
       white-space: nowrap;
   }
-  
+
   /* side bar (update colour) */
   .wy-nav-side {
       position: fixed;
@@ -42,14 +42,14 @@
       background: #2d8259;
       z-index: 200;
   }
-  
+
   /* menu h2 header hover (updated colour) */
   .wy-menu-vertical a:hover {
       background-color: #EFEDEA;
     cursor: pointer;
     color: #000000;
   }
-  
+
   /* menu h2 header (updated colour) */
   .wy-menu-vertical a {
       display: inline-block;
@@ -60,7 +60,7 @@
       font-size: 90%;
       color: #FFFFFF;
   }
-  
+
   /* Copy buttons */
   button.copybtn {
     webkit-transition: opacity .3s ease-in-out;
@@ -81,4 +81,3 @@
   div.highlight {
     position: relative;
   }
-  
