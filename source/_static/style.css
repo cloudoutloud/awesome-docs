@@ -1,0 +1,84 @@
+/* Overrides for Read the Docs theme */
+.wy-nav-content {
+    max-width: none;
+  }
+  
+  .wy-side-nav-search {
+      display: block;
+      width: 300px;
+      padding: .809em;
+      margin-bottom: .809em;
+      z-index: 200;
+      background-color: #006A4D;
+      text-align: center;
+      padding: .809em;
+      display: block;
+      color: #fcfcfc;
+      margin-bottom: .809em;
+  }
+  
+  /* menu h1 header (update colour) */
+  .wy-menu-vertical header, .wy-menu-vertical p.caption {
+      color: #FFFFFF;
+      line-height: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 85%;
+      white-space: nowrap;
+  }
+  
+  /* side bar (update colour) */
+  .wy-nav-side {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 2em;
+      width: 300px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      min-height: 100%;
+      color: #9b9b9b;
+      background: #2d8259;
+      z-index: 200;
+  }
+  
+  /* menu h2 header hover (updated colour) */
+  .wy-menu-vertical a:hover {
+      background-color: #EFEDEA;
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  /* menu h2 header (updated colour) */
+  .wy-menu-vertical a {
+      display: inline-block;
+      line-height: 18px;
+      padding: .4045em 1.618em;
+      display: block;
+      position: relative;
+      font-size: 90%;
+      color: #FFFFFF;
+  }
+  
+  /* Copy buttons */
+  button.copybtn {
+    webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+    padding: 2px 6px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+  }
+  div.highlight:hover .copybtn, div.highlight .copybtn:focus {
+    opacity: .3;
+  }
+  div.highlight .copybtn:hover {
+    opacity: 1;
+  }
+  div.highlight {
+    position: relative;
+  }
+  
