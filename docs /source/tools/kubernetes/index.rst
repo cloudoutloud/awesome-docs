@@ -1,4 +1,4 @@
 Kubernetes
 ========================
 
-Is a great for container orchestration
+Is a great for container orchestration and STUFF!
