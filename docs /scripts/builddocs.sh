@@ -1,16 +1,5 @@
 #!/bin/bash
 set -x
-################################################################################
-# File:    buildDocs.sh
-# Purpose: Script that builds our documentation using sphinx and updates GitHub
-#          Pages. This script is executed by:
-#            .github/workflows/docs_pages_workflow.yml
-#
-# Authors: Michael Altfield <michael@michaelaltfield.net>
-# Created: 2020-07-17
-# Updated: 2020-07-23
-# Version: 0.2
-################################################################################
 
 ###################
 # INSTALL DEPENDS #
@@ -97,8 +86,7 @@ for current_version in ${versions}; do
 
 done
 
-# return to master branch
-git checkout master
+git checkout main
 
 #######################
 # Update GitHub Pages #
