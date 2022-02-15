@@ -16,14 +16,18 @@ set -x
 # INSTALL DEPENDS #
 ###################
 
-apt-get update
-apt-get -y install git rsync python3-sphinx python3-sphinx-rtd-theme python3-stemmer python3-git python3-pip python3-virtualenv python3-setuptools
+# apt-get update
+# apt-get -y install git rsync python3-sphinx python3-sphinx-rtd-theme python3-stemmer python3-git python3-pip python3-virtualenv python3-setuptools
 
-python3 -m pip install --upgrade rinohtype pygments
+# python3 -m pip install --upgrade rinohtype pygments
 
 #####################
 # DECLARE VARIABLES #
 #####################
+
+GITHUB_ACTOR="cloudoutloud"
+GITHUB_TOKEN="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"
+GITHUB_REPOSITORY="cloudoutloud/awesome-docs"
 
 pwd
 ls -lah
@@ -33,13 +37,17 @@ export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 docroot=`mktemp -d`
 
 export REPO_NAME="${GITHUB_REPOSITORY##*/}"
+echo "[info] Repo is $GITHUB_REPOSITORY"
 
 ##############
 # BUILD DOCS #
 ##############
 
 # first, cleanup any old builds' static assets
-make -C docs clean
+# make -C docs clean
+
+rm -rf "build/html"
+sphinx-build -M html "source" "build" -w "build/html.log"
 
 # get a list of branches, excluding 'HEAD' and 'gh-pages'
 versions="`git for-each-ref '--format=%(refname:lstrip=-1)' refs/remotes/origin/ | grep -viE '^(HEAD|gh-pages)$'`"

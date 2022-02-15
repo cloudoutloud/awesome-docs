@@ -13,6 +13,9 @@ html:
 	rm -fr "$(BUILDDIR)/html"
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) -w "$(BUILDDIR)/html.log"
 
+# rm -rf "build/html"
+# sphinx-build -M html "source" "build" -w "build/html.log"
+
 # Build documentation and push to confluence (see conf.py for configuration details).
 conf:
 	@$(SPHINXBUILD) -b confluence "$(SOURCEDIR)" "$(BUILDDIR)/confluence" -E -a -v
