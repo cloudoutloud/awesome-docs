@@ -1,0 +1,9 @@
+[91m/Users/seanrigby/repos/awesome-docs/docs /source/certs/cka/index.rst:2: WARNING: Title underline too short.
+
+CKA (certified Kubernetes administrator)
+========================[39;49;00m
+[91m/Users/seanrigby/repos/awesome-docs/docs /source/certs/index.rst:8: WARNING: toctree contains reference to nonexisting document 'certs/ckad/index'[39;49;00m
+[91m/Users/seanrigby/repos/awesome-docs/docs /source/index.rst:6: WARNING: toctree contains reference to nonexisting document 'Tools/kubernetes/index'[39;49;00m
+[91m/Users/seanrigby/repos/awesome-docs/docs /source/index.rst:6: WARNING: toctree contains reference to nonexisting document 'Tools/terraform/index'[39;49;00m
+[91m/Users/seanrigby/repos/awesome-docs/docs /source/certs/index.rst: WARNING: document isn't included in any toctree[39;49;00m
+[91m/Users/seanrigby/repos/awesome-docs/docs /source/tools/index.rst: WARNING: document isn't included in any toctree[39;49;00m
